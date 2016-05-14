@@ -14,8 +14,8 @@ print -3 ** 2       #-9
 #表达式有返回值，语句没有返回值
 #解释器使用repr呈现结果
 
-x = input('x:')     #input要求输入的是合法的python表达式，如2、"sample"
-y = raw_input('y:') #raw_input自动将输入内容放在字符串中处理
+x = input('x:')     #input要求输入的是合法的python表达式，如2、"sample"，返回字符串
+y = raw_input('y:') #raw_input自动将输入内容放在字符串中处理，返回字符串
 
 print abs(-3.4)             #3.4
 print abs(-4)               #4
