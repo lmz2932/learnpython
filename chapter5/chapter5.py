@@ -4,7 +4,7 @@ print bool("")              #False
 
 #如下比较的前提是类型相同
 x, y = 1, 2
-print x ==y                 #False
+print x == y                #False
 print x > y                 #False
 print x >= y                #False
 print x < y                 #True
