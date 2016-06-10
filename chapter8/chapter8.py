@@ -27,8 +27,3 @@ except (ZeroDivisionError, TypeError, NameError), e:
     print e
 
 #使用没有参数的except子句可以捕获所有异常
-for i in range(3):
-    if i == 2:
-        break
-else:
-    print 'a'
