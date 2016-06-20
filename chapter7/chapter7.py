@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 
-#对象是属性attribute和方法method的集合，是类的实例instance
+#对象是特性attribute和方法method的集合，是类的实例instance
 #面向对象的特点：封装、继承、多态
 #使用新式类也可以继承自object，新式类声明一般放在脚本或模块的开始
 __metaclass__ = type    #使用新式类
@@ -60,8 +60,8 @@ class Sample:
     print 'Created a instance of Sample'
 a = Sample()                #Created a instance of Sample
 
-#在类中定义的属性所有实例可访问
-#如果直接修改某个实例的该属性，则修改后的值仅该实例可见，其他实例仍然使用类属性
+#在类中定义的特性所有实例可访问
+#如果直接修改某个实例的该特性，则修改后的值仅该实例可见，其他实例仍然使用类特性
 class Counter:
     members = 0
     def init(self):
@@ -97,6 +97,7 @@ print issubclass(SPAMFilter, Filter)    #True
 print SPAMFilter.__bases__              #(<class '__main__.Filter'>,)
 print Filter.__bases__
 #对象类型判断
+#isinstance的第二个参数也可以是类型组成的元组
 print isinstance(b, SPAMFilter)         #True
 print isinstance(b, Filter)             #True
 print b.__class__                       #<class '__main__.SPAMFilter'>
@@ -124,4 +125,4 @@ print hasattr(tc, 'cal')                #False
 print callable(getattr(tc, 'value', None))      #False
 setattr(tc, 'new', 'mars')
 print tc.new                            #mars
-print tc.__dict__                       #查看对象内所有属性值
+print tc.__dict__                       #查看对象内所有特性值
