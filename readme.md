@@ -5,7 +5,7 @@ Python笔记归档，需要时供查询使用
 Python并发编程方法总结。
 
 ### multiprocessing
-使用multiprocessing包进行多进程变成，[CSDN博客]()。
+使用multiprocessing包进行多进程编程，[CSDN博客](http://blog.csdn.net/a464057216/article/details/52735584)。
 
 #### 1.py
 使用Process对象创建进程，获取进程ID及父进程ID。
