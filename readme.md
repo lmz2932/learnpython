@@ -41,7 +41,7 @@ Python并发编程方法总结。
 例子：使用进程池实现指定并发的HTTP Web API测试。
 
 ### threading
-使用Python的threading包完成多线程编程,[CSDN博客]()。
+使用Python的threading包完成多线程编程,[CSDN博客](http://blog.csdn.net/a464057216/article/details/52743072)。
 
 #### 1.py
 使用Thread对象创建线程并执行。
