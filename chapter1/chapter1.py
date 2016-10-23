@@ -1,6 +1,6 @@
+# -*- coding: utf-8 -*-
 #! /usr/bin/env python
 # #!称为pound bang或shebang
-# -*- coding: utf-8 -*-
 
 from __future__ import division
 #Linux: $ python -Qnew
